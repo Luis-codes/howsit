@@ -5,3 +5,7 @@
     <p><%= place.description %></p><br />
   </div>
 <% end %>
+
+    <div class="pagination">
+      <%= will_paginate @places, :container => false %>
+    </div>
